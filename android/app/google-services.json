@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "923664715542",
+    "project_id": "obexvault",
+    "storage_bucket": "obexvault.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923664715542:android:33954502b7782a86fb4a37",
+        "android_client_info": {
+          "package_name": "com.atharva.obexvault"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923664715542-85g21i1bh6j95gisqm1mover3kec7njs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.atharva.obexvault",
+            "certificate_hash": "88a314fafc182315309fc5d6db57300963a9148d"
+          }
+        },
+        {
+          "client_id": "923664715542-e1e562qb2tt37cl8sqgm5lqu6kt5vcpd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.atharva.obexvault",
+            "certificate_hash": "61707154c1d1fd6239f8d6333a8b5c1d1368f357"
+          }
+        },
+        {
+          "client_id": "923664715542-6ar2oqcp2pv0gkcbkpuj4sjrgbniper2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtCiPSGoU-DdpgfmlqVEr_jjNSTCQsao0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923664715542-6ar2oqcp2pv0gkcbkpuj4sjrgbniper2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "923664715542-frnu7gbaeuu0nq8ag00qb5c5vfcnspif.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.atharva.obexvault"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
