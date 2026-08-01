@@ -92,4 +92,5 @@ app.*.map.json
 .build/
 .buildlog/
 .swiftpm/
+.claude/
 migrate_working_dir/
