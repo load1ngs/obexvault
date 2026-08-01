@@ -1,45 +1,95 @@
-# Miscellaneous
-*.class
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
 *.log
 *.pyc
 *.swp
-.DS_Store
-.atom/
-.build/
-.buildlog/
-.history
-.svn/
-.swiftpm/
-migrate_working_dir/
+*.class
 
-# IntelliJ related
+# =========================
+# IDE Files
+# =========================
+.idea/
 *.iml
 *.ipr
 *.iws
-.idea/
+.vscode/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
+# =========================
+# Flutter / Dart
+# =========================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+build/
+coverage/
 
-# Flutter/Dart/Pub related
+# Flutter generated
 **/doc/api/
 **/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins-dependencies
-.pub-cache/
-.pub/
-/build/
-/coverage/
 
-# Symbolication related
+# =========================
+# Android
+# =========================
+android/.gradle/
+android/local.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# Generated APKs & Bundles
+*.apk
+*.aab
+
+# =========================
+# iOS
+# =========================
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/App.framework
+
+# =========================
+# Firebase
+# =========================
+firebase-debug.log
+firebase-debug.*.log
+
+# =========================
+# Secrets (NEVER COMMIT)
+# =========================
+*.jks
+*.keystore
+key.properties
+serviceAccountKey.json
+google-services-desktop.json
+
+# Environment files
+.env
+.env.*
+
+# =========================
+# Obfuscation / Symbols
+# =========================
 app.*.symbols
-
-# Obfuscation related
 app.*.map.json
 
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+# =========================
+# Misc
+# =========================
+.history/
+.svn/
+.atom/
+.build/
+.buildlog/
+.swiftpm/
+migrate_working_dir/
